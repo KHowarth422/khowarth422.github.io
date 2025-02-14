@@ -17,7 +17,7 @@ function showNextBubble() {
 
     // Create a new bubble div
     const bubbleDiv = document.createElement('div');
-    bubbleDiv.classList.add('overlay'); // Apply the same bubble style from .overlay
+    bubbleDiv.classList.add('bubble'); // Apply the same bubble style from .overlay
 
     // Add text and image (if any)
     bubbleDiv.innerHTML = `<p>${bubbleData.text}</p>`;

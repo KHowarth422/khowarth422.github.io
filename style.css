@@ -23,6 +23,17 @@ body {
     align-items: center;
 }
 
+.bubble {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    background: inherit;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+
 .overlay img {
     max-width: 100%;
     height: auto;
