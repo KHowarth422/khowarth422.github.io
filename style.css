@@ -15,6 +15,8 @@ body {
     background: rgba(199, 21, 133, 0.7); /* Dark pink with transparency */
     padding: 20px;
     width: 80%;
+    margin: 10px auto;
+    max-width: 600px;
     border-radius: 10px;
     font-size: 22px;
     color: white;
@@ -48,4 +50,5 @@ body {
     max-width: 100%;
     height: auto;
     margin-top: 10px;
+    max-height: 70%;
 }
