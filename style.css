@@ -8,7 +8,7 @@ body {
     align-items: center;
     height: auto;
     text-align: center;
-    overflow: hidden;
+    overflow-y: auto;
     height: 100vh;
 }
 
@@ -26,10 +26,11 @@ body {
 }
 
 #bubble-container {
-    max-height: calc(100vh - 40px); /* Set a scrollable container that fits inside the body */
-    overflow-y: auto; /* Enable scrolling for the bubble container */
+    flex-grow: 1; /* Make the container take up remaining space in the body */
+    overflow-y: auto; /* Enable vertical scrolling within the container */
     width: 100%;
     padding: 20px 0; /* Space around the bubbles */
+    box-sizing: border-box; /* Ensure padding doesn't affect layout calculations */
 }
 
 .bubble {

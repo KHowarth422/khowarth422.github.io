@@ -1,8 +1,8 @@
 [
-    { "text": "(click anywhere to begin!)" },
+    { "text": "(press anywhere to begin!)" },
     { "text": "Hello, Arianna!" },
     { "text": "Happy Valentine's day." },
     { "text": "Unfortunately, I can't be with you in-person on this most special of days. So, instead, I have crawled inside of this website and dropped it into your browser!" },
     { "text": "See?? Here I am! So come follow me on a little V-day journey!", "image": "follow-me.jpg" },
-    { "text": "Click or press space to see more!" }
+    { "text": "But first - <a href='https://open.spotify.com/playlist/3QMF1onie8a6VdVdjgwiKZ?si=eefd1961549646fb&pt=2c84a5ab0de5ebc2296ad901f3ecb06c' target='_blank'>click here for a Spotify playlist!</a> I filled it with a few songs about how you make me feel (e.g. sweet, goopy, etc.). So, you should listen to it while you read this, and maybe throughout today when you get a chance, too :-)" }
 ]
