@@ -6,16 +6,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     text-align: center;
+    overflow-y: auto; /* Make the entire page scrollable */
 }
 
 .overlay {
     background: rgba(199, 21, 133, 0.7); /* Dark pink with transparency */
     padding: 20px;
-    width: 60%;
+    width: 70%;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 22px;
     color: white;
     font-family: Arial, sans-serif;
     display: flex;
@@ -31,7 +32,7 @@ body {
     margin: 10px 0;
     padding: 10px;
     border-radius: 8px;
-    width: 100%;
+    width: 80%;
 }
 
 .overlay img {
