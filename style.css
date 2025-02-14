@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('images/hearts-background.jpeg') repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(199, 21, 133, 0.7); /* Dark pink with transparency */
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+}
