@@ -12,14 +12,21 @@ fetch('bubbles.json')
 function showNextBubble() {
     if (currentIndex >= bubbles.length) return; // Stop if out of bubbles
 
-    const bubbleContainer = document.getElementById('bubble');
+    const bubbleContainer = document.getElementById('bubble-container');
     const bubbleData = bubbles[currentIndex];
 
-    // Create bubble content inside the overlay
-    bubbleContainer.innerHTML = `<p>${bubbleData.text}</p>`;
+    // Create a new bubble div
+    const bubbleDiv = document.createElement('div');
+    bubbleDiv.classList.add('overlay'); // Apply the same bubble style from .overlay
+
+    // Add text and image (if any)
+    bubbleDiv.innerHTML = `<p>${bubbleData.text}</p>`;
     if (bubbleData.image) {
-        bubbleContainer.innerHTML += `<img src="${bubbleData.image}" alt="">`;
+        bubbleDiv.innerHTML += `<img src="images/${bubbleData.image}" alt="">`;
     }
+
+    // Append the new bubble to the container
+    bubbleContainer.appendChild(bubbleDiv);
 
     currentIndex++;
 }
