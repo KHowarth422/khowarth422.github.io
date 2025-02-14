@@ -14,7 +14,7 @@ body {
 .overlay {
     background: rgba(199, 21, 133, 0.7); /* Dark pink with transparency */
     padding: 20px;
-    width: 70%;
+    width: 80%;
     border-radius: 10px;
     font-size: 22px;
     color: white;
@@ -30,6 +30,7 @@ body {
     padding: 20px 0; /* Space around the bubbles */
     box-sizing: border-box; /* Ensure padding doesn't affect layout calculations */
     flex-grow: 1; /* Allow this container to take up available space */
+    width: 80%;
 }
 
 .bubble {
@@ -40,7 +41,7 @@ body {
     margin: 10px 0;
     padding: 10px;
     border-radius: 8px;
-    width: 80%;
+    width: 70%;
 }
 
 .overlay img {
