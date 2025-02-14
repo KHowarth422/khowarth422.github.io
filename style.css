@@ -13,12 +13,14 @@ body {
 .overlay {
     background: rgba(199, 21, 133, 0.7); /* Dark pink with transparency */
     padding: 20px;
-    width: 80%;
-    max-width: 600px;
+    width: 60%;
     border-radius: 10px;
-}
-
-h1 {
     color: white;
     font-family: Arial, sans-serif;
+}
+
+.overlay img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
 }
